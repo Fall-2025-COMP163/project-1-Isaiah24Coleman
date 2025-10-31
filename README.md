@@ -54,6 +54,7 @@ Gold: [gold]
 python -m pytest tests/test_character_creation.py -v
 
 # Test your main program
+bash
 python project1_starter.py
 
 GitHub Testing:
@@ -76,7 +77,7 @@ Modifying protected files will result in automatic academic integrity violation
 
 ✅ Allowed: AI assistance for implementation, debugging, learning
 
-📝 Required: Document AI usage in code comments
+I used ai to clarify and clean up my code while also using myt tutor on upswing to complete this project
 
 🎯 Must be able to explain: Every line of code during interview
 

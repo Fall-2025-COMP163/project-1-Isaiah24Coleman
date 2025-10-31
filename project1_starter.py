@@ -3,8 +3,7 @@
 # AI usage: This code was created with AI assistance for structure and debugging. I also used my tutor on upswing to make it easier for me to write tyhe code
 # I understand how each function works and can explain all logic used.
 """
-bash
-python project1_starter.py
+
 def create_character(name, character_class):
       """
     Creates a new character dictionary with calculated stats.
@@ -21,7 +20,7 @@ def create_character(name, character_class):
         "gold": 100
     }
     return character
-    pass
+    
 
 def calculate_stats(character_class, level):
    """
@@ -53,7 +52,7 @@ def calculate_stats(character_class, level):
         health = 80 + level * 5
 
     return strength, magic, health
-    pass
+    
 
 def save_character(character, filename):
     """
@@ -75,7 +74,7 @@ def save_character(character, filename):
         print("Error: Could not save character.")
         return False
 
-    pass
+    
 
 def load_character(filename):
    """
@@ -114,7 +113,7 @@ def load_character(filename):
     except FileNotFoundError:
         print("Error: File not found.")
         return None
-    pass
+    
 
 def display_character(character):
    """
@@ -130,7 +129,7 @@ def display_character(character):
     print("Health:", character["health"])
     print("Gold:", character["gold"])
     print("=======================")
-    pass
+    
 
 def level_up(character):
    """
@@ -144,7 +143,7 @@ def level_up(character):
     character["magic"] = magic
     character["health"] = health
     print(character["name"], "has leveled up to Level", character["level"], "!")
-    pass
+    
 
 # Main program area (optional - for testing your functions)
 # === MAIN PROGRAM ===

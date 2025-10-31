@@ -3,7 +3,8 @@
 # AI usage: This code was created with AI assistance for structure and debugging. I also used my tutor on upswing to make it easier for me to write tyhe code
 # I understand how each function works and can explain all logic used.
 """
-
+bash
+python project1_starter.py
 def create_character(name, character_class):
       """
     Creates a new character dictionary with calculated stats.
